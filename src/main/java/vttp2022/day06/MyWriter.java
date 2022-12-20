@@ -14,7 +14,7 @@ public class MyWriter {
         FileOutputStream fos = new FileOutputStream(args[0]);
         BufferedOutputStream bos = new BufferedOutputStream(fos);
         ObjectOutputStream oos = new ObjectOutputStream(bos);
-
+        
         //Nunber of lines
         oos.writeInt(2);
         oos.writeUTF("She sells sea shell on the sea shore\n");
